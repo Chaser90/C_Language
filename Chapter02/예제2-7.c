@@ -1,10 +1,10 @@
-//#include <stdio.h> //¹®ÀÚ¿Í ¹®ÀÚ¿­ µ¥ÀÌÅÍÀÇ Ãâ·Â
-//
-//int main(void)
-//{
-//	printf("%c\n", 'A'); //¹®ÀÚ »ó¼ö Ãâ·Â
-//	printf("%s\n", "A"); // ¹®ÀÚ¿­ »ó¼ö Ãâ·Â
-//	printf("%cÀº %sÀÔ´Ï´Ù.\n", '1', "first");
-//
-//	return 0;
-//}
+#include <stdio.h> //ë¬¸ìì™€ ë¬¸ìì—´ ë°ì´í„°ì˜ ì¶œë ¥
+
+int main(void)
+{
+	printf("%c\n", 'A'); //ë¬¸ì ìƒìˆ˜ ì¶œë ¥
+	printf("%s\n", "A"); // ë¬¸ìì—´ ìƒìˆ˜ ì¶œë ¥
+	printf("%cì€ %sì…ë‹ˆë‹¤.\n", '1', "first");
+
+	return 0;
+}
