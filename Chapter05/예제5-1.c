@@ -1,18 +1,18 @@
-//// 05 ¼±ÅÃ¹® (if, switch~case )
-//// 05-1 if ¹®
-//#include <stdio.h>
-//
-//int main(void) 
-//{
-//	int a = 20;
-//	int b = 0;
-//
-//	if (a > 10)								// Á¶°Ç½Ä : a°¡ 10º¸´Ù Å©¹Ç·Î Á¶°Ç½ÄÀº Âü
-//	{
-//		b = a;								// ½ÇÇà¹® : b = a ´ëÀÔ¹® ½ÇÇà
-//	}
-//
-//	printf("a : %d, b : %d\n", a, b);		//´ëÀÔÀÌ ¼öÇàµÇ¸é µÎ °ªÀº °°À½
-//
-//	return 0;
-//}
+// 05 ì„ íƒë¬¸ (if, switch~case )
+// 05-1 if ë¬¸
+#include <stdio.h>
+
+int main(void) 
+{
+	int a = 20;
+	int b = 0;
+
+	if (a > 10)								// ì¡°ê±´ì‹ : aê°€ 10ë³´ë‹¤ í¬ë¯€ë¡œ ì¡°ê±´ì‹ì€ ì°¸
+	{
+		b = a;								// ì‹¤í–‰ë¬¸ : b = a ëŒ€ìž…ë¬¸ ì‹¤í–‰
+	}
+
+	printf("a : %d, b : %d\n", a, b);		//ëŒ€ìž…ì´ ìˆ˜í–‰ë˜ë©´ ë‘ ê°’ì€ ê°™ìŒ
+
+	return 0;
+}
