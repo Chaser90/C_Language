@@ -1,16 +1,16 @@
-//#include <stdio.h> // ¿©·¯ °¡Áö Á¤¼öÇü º¯¼ö
-//
-//int main(void)
-//{
-//	short sh = 32767; // shortÇüÀÇ ÃÖ´ñ°ª ÃÊ±âÈ­
-//	int in = 2147483647; // intÇüÀÇ ÃÖ´ñ°ª ÃÊ±âÈ­
-//	long ln = 2147483647; // longÇüÀÇ ÃÖ´ñ°ª ÃÊ±âÈ­
-//	long long lln = 123451234512345; // ¾ÆÁÖ Å« °ª ÃÊ±âÈ­
-//
-//	printf("shortÇü º¯¼ö Ãâ·Â : %d\n", sh);
-//	printf("intÇü º¯¼ö Ãâ·Â : %d\n", in);
-//	printf("longÇü º¯¼ö Ãâ·Â : %ld\n", ln);
-//	printf("long longÇü º¯¼ö Ãâ·Â : %lld\n", lln);
-//
-//	return 0;
-//}
+#include <stdio.h> // ì—¬ëŸ¬ ê°€ì§€ ì •ìˆ˜í˜• ë³€ìˆ˜
+
+int main(void)
+{
+	short sh = 32767; // shortí˜•ì˜ ìµœëŒ“ê°’ ì´ˆê¸°í™”
+	int in = 2147483647; // intí˜•ì˜ ìµœëŒ“ê°’ ì´ˆê¸°í™”
+	long ln = 2147483647; // longí˜•ì˜ ìµœëŒ“ê°’ ì´ˆê¸°í™”
+	long long lln = 123451234512345; // ì•„ì£¼ í° ê°’ ì´ˆê¸°í™”
+
+	printf("shortí˜• ë³€ìˆ˜ ì¶œë ¥ : %d\n", sh);
+	printf("intí˜• ë³€ìˆ˜ ì¶œë ¥ : %d\n", in);
+	printf("longí˜• ë³€ìˆ˜ ì¶œë ¥ : %ld\n", ln);
+	printf("long longí˜• ë³€ìˆ˜ ì¶œë ¥ : %lld\n", lln);
+
+  return 0;
+}
