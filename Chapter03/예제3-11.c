@@ -1,16 +1,16 @@
-////¹®ÀÚ¿Í ¹®ÀÚ¿­ ÀÔ·Â
-//#include<stdio.h>
-//
-//int main(void)
-//{
-//	char grade;
-//	char name[20];
-//
-//	printf("Á÷Á¢ ÀÔ·Â : ");
-//	scanf("%c", &grade);
-//	printf("ÀÌ¸§ ÀÔ·Â : ");
-//	scanf("%s", name);
-//	printf("%sÀÇ ÇĞÁ¡Àº %cÀÔ´Ï´Ù.\n", name,grade);
-//
-//	return 0;
-//}
+//ë¬¸ìì™€ ë¬¸ìì—´ ì…ë ¥
+#include<stdio.h>
+
+int main(void)
+{
+	char grade;
+	char name[20];
+
+	printf("ì§ì ‘ ì…ë ¥ : ");
+	scanf("%c", &grade);
+	printf("ì´ë¦„ ì…ë ¥ : ");
+	scanf("%s", name);
+	printf("%sì˜ í•™ì ì€ %cì…ë‹ˆë‹¤.\n", name,grade);
+
+	return 0;
+}
