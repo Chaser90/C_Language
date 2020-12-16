@@ -1,9 +1,9 @@
-//#include <stdio.h>
-//
-//int main(void)
-//{
-//	printf("Be happy!");
-//	printf("My friend");
-//
-//	return 0;
-//}
+#include <stdio.h>
+
+int main(void)
+{
+	printf("Be happy!");
+	printf("My friend");
+
+	return 0;
+}
