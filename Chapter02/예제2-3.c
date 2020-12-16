@@ -1,9 +1,9 @@
-//#include<stdio.h>
-//int main(void)
-//{
-//	printf("Be happy\n");  // "Be happy"¸¦ Ãâ·ÂÇÏ°í ÁÙÀ» ¹Ù²Þ
-//	printf("12345678901234567890\n"); // È­¸é¿¡ ¿­ ¹øÈ£ Ãâ·ÂÇÏ°í ÁÙÀ» ¹Ù²Þ
-//	printf("My\tfriend\n"); //"My"¸¦ Ãâ·ÂÇÏ°í ÅÇ À§Ä¡·Î ÀÌµ¿ ÈÄ¿¡ "friend"¸¦ Ãâ·ÂÇÏ°í ÁÙÀ» ¹Ù²Þ
-//	printf("Goot\bd\tchance\n"); // GootÀ» Ãâ·ÂÇÏ°í ÇÑÄ­ ¿ÞÂÊÀ¸·Î ÀÌµ¿ÇØ t¸¦ d·Î ¹Ù²Ù°í ÅÇ À§Ä¡·Î ÀÌµ¿ ÈÄ¿¡ chance¸¦ Ãâ·ÂÇÏ°í ÁÙÀ» ¹Ù²Þ
-//	printf("Cow\rW\a\n"); //¸Ç ¾ÕÀ¸·Î ÀÌµ¿ÇØ C¸¦ W·Î ¹Ù²Ù°í º§¼Ò¸®¸¦ ³»°í ÁÙÀ» ¹Ù²Þ
-//}
+#include<stdio.h>
+int main(void)
+{
+	printf("Be happy\n");  // "Be happy"ë¥¼ ì¶œë ¥í•˜ê³  ì¤„ì„ ë°”ê¿ˆ
+	printf("12345678901234567890\n"); // í™”ë©´ì— ì—´ ë²ˆí˜¸ ì¶œë ¥í•˜ê³  ì¤„ì„ ë°”ê¿ˆ
+	printf("My\tfriend\n"); //"My"ë¥¼ ì¶œë ¥í•˜ê³  íƒ­ ìœ„ì¹˜ë¡œ ì´ë™ í›„ì— "friend"ë¥¼ ì¶œë ¥í•˜ê³  ì¤„ì„ ë°”ê¿ˆ
+	printf("Goot\bd\tchance\n"); // Gootì„ ì¶œë ¥í•˜ê³  í•œì¹¸ ì™¼ìª½ìœ¼ë¡œ ì´ë™í•´ të¥¼ dë¡œ ë°”ê¾¸ê³  íƒ­ ìœ„ì¹˜ë¡œ ì´ë™ í›„ì— chanceë¥¼ ì¶œë ¥í•˜ê³  ì¤„ì„ ë°”ê¿ˆ
+	printf("Cow\rW\a\n"); //ë§¨ ì•žìœ¼ë¡œ ì´ë™í•´ Cë¥¼ Wë¡œ ë°”ê¾¸ê³  ë²¨ì†Œë¦¬ë¥¼ ë‚´ê³  ì¤„ì„ ë°”ê¿ˆ
+}
