@@ -1,13 +1,13 @@
-//#include <stdio.h>		// scanfÇÔ¼ö¸¦ »ç¿ëÇÑ ¿¬¼Ó ÀÔ·Â\
-//
-//int main(void)
-//{
-//	int age;					// ³ªÀÌ´Â Á¤¼öÇü
-//	double height;				// Å°´Â ½Ç¼öÇü
-//
-//	printf("³ªÀÌ¿Í Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");			// ÀÔ·Â ¾È³» ¸Ş½ÃÁö Ãâ·Â
-//	scanf("%d%lf", &age, &height);				  // ³ªÀÌ¿Í Å°¸¦ ÇÔ²² ÀÔ·Â
-//	printf("³ªÀÌ´Â %d»ì, Å°´Â %1.lfcmÀÔ´Ï´Ù\n", age, height);
-//
-//	return 0;
-//}
+#include <stdio.h>		// scanfí•¨ìˆ˜ë¥¼ ì‚¬ìš©í•œ ì—°ì† ì…ë ¥\
+
+int main(void)
+{
+	int age;					// ë‚˜ì´ëŠ” ì •ìˆ˜í˜•
+  double height;				// í‚¤ëŠ” ì‹¤ìˆ˜í˜•
+
+	printf("ë‚˜ì´ì™€ í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ");			// ì…ë ¥ ì•ˆë‚´ ë©”ì‹œì§€ ì¶œë ¥
+	scanf("%d%lf", &age, &height);				  // ë‚˜ì´ì™€ í‚¤ë¥¼ í•¨ê»˜ ì…ë ¥
+	printf("ë‚˜ì´ëŠ” %dì‚´, í‚¤ëŠ” %1.lfcmì…ë‹ˆë‹¤\n", age, height);
+
+	return 0;
+}
