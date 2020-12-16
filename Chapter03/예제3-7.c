@@ -1,13 +1,13 @@
-//#include<stdio.h> // char¹è¿­¿¡ ¹®ÀÚ¿­ º¹»ç
-//#include<string.h> // ¹®ÀÚ¿­À» ´Ù·ê ¼ö ÀÖ´Âstring.h¿¡ ÆÄÀÏ Æ÷ÇÔ
-//
-//int main(void)
-//{
-//	char fruit[20] = "strawberry";  //  strawberry·Î ÃÊ±âÈ­
-//
-//	printf("%s\n",fruit);	//	strawberry Ãâ·Â
-//	strcpy(fruit, "banana"); //	fruit¿¡ banana º¹»ç
-//	printf("%s\n", fruit); // banana Ãâ·Â
-//
-//	return 0;
-//}
+#include<stdio.h> // charë°°ì—´ì— ë¬¸ìì—´ ë³µì‚¬
+#include<string.h> // ë¬¸ìì—´ì„ ë‹¤ë£° ìˆ˜ ìˆëŠ”string.hì— íŒŒì¼ í¬í•¨
+
+int main(void)
+{
+	char fruit[20] = "strawberry";  //  strawberryë¡œ ì´ˆê¸°í™”
+
+	printf("%s\n",fruit);	//	strawberry ì¶œë ¥
+	strcpy(fruit, "banana"); //	fruitì— banana ë³µì‚¬
+	printf("%s\n", fruit); // banana ì¶œë ¥
+
+ 	return 0;
+}
