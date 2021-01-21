@@ -1,4 +1,5 @@
 #include <stdio.h>
+// 크기가 다른 배열을 출력하는 함수
 
 void print_ary(int* pa, int size);			//	함수 선언, 매개변수 2개
 
