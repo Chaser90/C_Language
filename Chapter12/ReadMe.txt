@@ -1,1 +1,1 @@
-answkduf
+문자열
